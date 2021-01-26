@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+
+    <title></title>
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src='hw5.js'></script>
+
+  
+  <style>
+            svg {
+                border:1px solid gray;
+                width: 95%;
+                /* max-width:1200px; */
+                height:700px;
+            }
+            .node {
+                stroke: black;
+                stroke-width: 1px;
+            }
+            .node-label {
+                font-size: .8em;
+                text-anchor: middle;
+                alignment-baseline: middle;
+            }
+            .link {
+                stroke: rgb(82, 12, 12);
+                stroke-width:2px;
+                stroke-opacity: 0.5;
+                fill:none;
+            }
+
+
+
+  .zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  
+  transform: scale(1); 
+
+  width: 100px;
+      height: 100px;
+}
+
+
+
+ 
+div.tooltip {
+     position: absolute;
+     text-align: center;
+     padding: .5rem;
+     background: #e4dcdc;
+     color: #313639;
+     /* border: 1px solid #313639;
+     border-radius: 8px; */
+     width: 120px; 
+     height: 120px;
+     pointer-events: none;
+     font-size: 1.3rem;
+} 
+
+
+
+h2, h3 ,h1{
+          text-align:center;
+        }
+
+h4{
+
+color: rgb(27, 0, 71);
+
+}
+
+h5{
+
+color: rgb(9, 7, 14);
+
+}
+
+
+</style>
+
+  
+  </head>
+  <body   >
+
+  
+
+
+    <div id='wrapper' >
+      <h3 style="color: rgb(8, 60, 172);">PAVAN KALYAN REDDY THOTA - pthota3@asu.edu - 128436466</h3>
+      <h1  style="color: red;">SOVIET SPACE DOGS MISSIONS MUSEUM FROM 1951-1958 </h1>
+
+      <h4>   MARKS : LINES &nbsp;   &nbsp;   POINT(DOG, ROCKET)  &nbsp;   &nbsp;  </h4>  
+      <h4>   CHANNELS : POINTS(DOTS)   &nbsp;   &nbsp;  COLOR HUE(DEAD/ALIVE) &nbsp;   &nbsp;  LUMINANCE(RED AND GREEN LINES) </h4>  
+      <h4> ATTRIBUTES :  NAME(LATIN)  &nbsp;   &nbsp;  GENDER &nbsp;   &nbsp;   TOTAL-MISSONS &nbsp;   &nbsp;FATE-OF-DOG &nbsp; &nbsp;  MAX-ALTITUDE-ROCKET              </h4>
+      <h4>INTERACTION : HOVER    </h4>
+      <h5>
+      
+     The viz shows the rockets and all the dogs that participated in all the missions between the years 1951 and 1958. The dogs are connected to Rockets in which they 
+     participated   by red lines and the dogs that traveled together by green lines(more the luminance, more the frequency). Number of black dots on the image of dog represents total missions by it. The legends are mentioned 
+     below. Hover on the dogs/rockets for more details on the left side.
+   </h5>
+       
+     <br>     <br>
+     <br>
+     <br>
+
+
+      <svg id='svg-circular'  ></svg>
+
+    </div>
+
+
+    <div id='tooltip'> </div> 
+
+    <div id='help'> </div> 
+
+
+
+
+  </body>
+</html>

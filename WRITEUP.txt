@@ -1,0 +1,19 @@
+1. I have preprocessed flights and dogs dataset and also derived new attributes such as Flight Counts by each dog , Fate of each dog.
+2. I have taken the data from years 1951 to 1958 and got a list of 19 dogs.
+3. I used the concepts taught by professor from "Networks" Lecture to create NODES and LINKS. These helped me in creating nodes of space dogs 
+and rockets  and create links between them. I further wrote the code on my based on requirements. 
+
+ 
+Description :
+1. All the space dogs are arranged in outer circle and the related Rockets in inner circle. The dogs that traveled together are connected by green 
+   lines(if they traveled multiple times together, color luminance is high). 
+2. Space dogs and Rockets are connected by RED LINES s indicating its respective rockets. 
+3. Similarly color luminance is high if a dog is into same rocket multiple times.
+4. Here I seperated Female and Male dogs by colors of their ears and nose(Pink for female and BROWN for male).
+5. The number of Black dots on the image of the dog represents the number of missions by it, while the black background represents that dog is dead and yellow represents survival.  
+6. User can hover on rockets/Dogs to get zoomed view and also get facts about it.
+
+
+Links : 
+https://github.com/asu-cse494-f2020/lectures/tree/master/08%20-%20Networks
+https://www.flaticon.com/  For SvgIcons
