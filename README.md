@@ -1,5 +1,8 @@
 # Innovative Visualization Design
 
+View the Visualization here
+https://spacedogsviz.netlify.app/
+
 In this homework, you will create a unique visualization that goes beyond the "common chart types" that you already exist. **This assignment is worth 10 points.**
 
 The audience for this visualization is visitors to a musuem. The goal is to communicate certain aspects of the data effectively and in a creative manner, as opposed to supporting in-depth analysis such as might be done by domain experts.
@@ -34,4 +37,3 @@ There are two datasets available for this project (choose one).
 * If you modified an existing block, below the visualization provide a link to the original source code and describe (in detail) how you modified it to create your chart.
 
 You are free (and encouraged!) to be creative on this assignment, including the use of abstract, artistic, and illustrative designs. Don't submit just a basic D3 block (bar chart, scatterplot, pie/donut chart, line chart, node-link diagram, tree, etc.), or you'll receive a 0 on this assignment. Especially creative or interesting submissions are eligible for up to 2 points extra credit.
-# DataVisualization_DogsAndFlights
